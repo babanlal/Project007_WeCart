@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+		<groups>
+		<run>
+				 <include name="Sanity"/>
+				<include name="Regression"/>
+				 <include name="Master"/>
+				  <include name="DataDriven"/>
+			 	<!-- <exclude name=""/> -->
+		</run>
+	</groups>
+
+	<listeners>
+			<listener class-name="Utilities.ExtentReportManager"/>
+	</listeners>
+	
+	  <test  name="chromeTest">
+  	   	<parameter name="os" value="Windows"/>
+  		<parameter name="browser" value="chrome"/>
+    <classes>
+      <!-- <class name="TestCases.TC003LoginDDT"/> -->
+     <!-- <class name="TestCases.TC004ShoppingCart"/> -->
+      <class name="TestCases.TC002LoginTest"/>
+     <!-- <class name="TestCases.TC001_AccountRegistrationPage"/> -->
+    </classes>
+  </test> <!-- Test -->
+  	  <test  name="firefoxTest">
+  	   	<parameter name="os" value="Windows"/>
+  		<parameter name="browser" value="firefox"/>
+    <classes>
+      <!-- <class name="TestCases.TC003LoginDDT"/> -->
+     <!-- <class name="TestCases.TC004ShoppingCart"/> -->
+      <class name="TestCases.TC002LoginTest"/>
+     <!-- <class name="TestCases.TC001_AccountRegistrationPage"/> -->
+    </classes>
+  </test> <!-- Test -->
+  	  <test  name="edgeTest">
+  	   	<parameter name="os" value="Windows"/>
+  		<parameter name="browser" value="edge"/>
+    <classes>
+      <!-- <class name="TestCases.TC003LoginDDT"/> -->
+     <!-- <class name="TestCases.TC004ShoppingCart"/> -->
+      <class name="TestCases.TC002LoginTest"/>
+     <!-- <class name="TestCases.TC001_AccountRegistrationPage"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
