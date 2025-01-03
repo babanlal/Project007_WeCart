@@ -865,3 +865,113 @@ Session ID: f5520bb2-8d77-40fe-811d-6137969028ed
 2024-11-18 01:36:02,200 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\master.xml"
 2024-11-18 01:36:07,880 [main] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
 2024-11-18 01:36:09,878 [main] INFO  TestCases.TC002LoginTest - ****** Finished TC_002_LoginTest *****
+2024-11-28 10:10:21,092 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\master.xml"
+2024-11-28 10:10:21,696 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\master.xml
+
+2024-11-28 10:10:31,243 [main] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-11-28 10:10:34,504 [main] INFO  TestCases.TC002LoginTest - ****** Finished TC_002_LoginTest *****
+2024-11-28 10:14:30,788 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\grouping.xml"
+2024-11-28 10:14:31,339 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\grouping.xml
+
+2024-11-28 10:14:46,579 [main] INFO  TestCases.TC001_AccountRegistrationPage - ***** Starting TC001_AccountRegistrationTest  ****
+2024-11-28 10:14:46,579 [main] DEBUG TestCases.TC001_AccountRegistrationPage - This is a debug log message
+2024-11-28 10:14:46,873 [main] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on MyAccount Link.. 
+2024-11-28 10:14:50,350 [main] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on Register Link.. 
+2024-11-28 10:14:50,356 [main] INFO  TestCases.TC001_AccountRegistrationPage - Providing customer details...
+2024-11-28 10:15:00,301 [main] INFO  TestCases.TC001_AccountRegistrationPage - Validating expected message..
+2024-11-28 10:15:02,461 [main] INFO  TestCases.TC001_AccountRegistrationPage - Test passed
+2024-11-28 10:15:02,461 [main] INFO  TestCases.TC001_AccountRegistrationPage - ***** Finished TC001_AccountRegistrationTest *****
+2024-11-28 10:23:19,706 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml"
+2024-11-28 10:23:20,209 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml
+
+2024-11-28 10:30:41,495 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml"
+2024-11-28 10:30:42,034 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml
+
+2024-11-28 10:36:38,453 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml"
+2024-11-28 10:36:39,054 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml
+
+2024-11-28 10:38:36,993 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml"
+2024-11-28 10:38:37,493 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml
+
+2024-11-28 11:02:23,808 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml"
+2024-11-28 11:02:24,411 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\crossbrowsing.xml
+
+2024-11-28 11:03:00,667 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\master.xml"
+2024-11-28 11:03:01,255 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Hp\eclipse-newWorkspace\Project007WeCart\master.xml
+
+2024-11-29 00:06:02,521 [TestNG-tests-1] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-11-29 00:06:02,698 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Starting TC001_AccountRegistrationTest  ****
+2024-11-29 00:06:02,702 [TestNG-tests-3] DEBUG TestCases.TC001_AccountRegistrationPage - This is a debug log message
+2024-11-29 00:06:03,356 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on MyAccount Link.. 
+2024-11-29 00:06:25,515 [TestNG-tests-3] ERROR TestCases.TC001_AccountRegistrationPage - Test failed: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.70)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [01b15879859e5253440ee78e214a6ab2, clickElement {id=f.FE820F3BBF15C7C0557C621659BF8519.d.168D96CF4479C00608764B4204D9B6B4.e.56}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.70, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:2910}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\Hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2910/devtool..., se:cdpVersion: 131.0.2903.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (01b15879859e5253440ee78e214a6ab2)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 01b15879859e5253440ee78e214a6ab2
+2024-11-29 00:06:25,516 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Finished TC001_AccountRegistrationTest *****
+2024-11-29 00:08:36,438 [TestNG-tests-1] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-11-29 00:08:52,218 [TestNG-tests-2] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-11-29 00:08:55,031 [TestNG-tests-2] INFO  TestCases.TC002LoginTest - ****** Finished TC_002_LoginTest *****
+2024-11-29 00:11:13,567 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Starting TC001_AccountRegistrationTest  ****
+2024-11-29 00:11:13,568 [TestNG-tests-3] DEBUG TestCases.TC001_AccountRegistrationPage - This is a debug log message
+2024-11-29 00:11:13,850 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on MyAccount Link.. 
+2024-11-29 00:11:17,293 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on Register Link.. 
+2024-11-29 00:11:17,298 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Providing customer details...
+2024-11-29 00:11:27,662 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Validating expected message..
+2024-11-29 00:11:29,806 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Test passed
+2024-11-29 00:11:29,806 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Finished TC001_AccountRegistrationTest *****
+2024-12-05 16:13:34,010 [main] INFO  TestCases.TC001_AccountRegistrationPage - ***** Starting TC001_AccountRegistrationTest  ****
+2024-12-05 16:13:34,017 [main] DEBUG TestCases.TC001_AccountRegistrationPage - This is a debug log message
+2024-12-05 16:13:34,331 [main] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on MyAccount Link.. 
+2024-12-05 16:13:37,798 [main] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on Register Link.. 
+2024-12-05 16:13:37,821 [main] INFO  TestCases.TC001_AccountRegistrationPage - Providing customer details...
+2024-12-05 16:13:46,896 [main] INFO  TestCases.TC001_AccountRegistrationPage - Validating expected message..
+2024-12-05 16:13:49,036 [main] INFO  TestCases.TC001_AccountRegistrationPage - Test passed
+2024-12-05 16:13:49,036 [main] INFO  TestCases.TC001_AccountRegistrationPage - ***** Finished TC001_AccountRegistrationTest *****
+2024-12-05 16:15:16,276 [TestNG-tests-1] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-12-05 16:15:18,767 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Starting TC001_AccountRegistrationTest  ****
+2024-12-05 16:15:18,769 [TestNG-tests-3] DEBUG TestCases.TC001_AccountRegistrationPage - This is a debug log message
+2024-12-05 16:15:18,878 [TestNG-tests-3] ERROR TestCases.TC001_AccountRegistrationPage - Test failed: Unable to locate element: //i[@class='fa fa-user']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d85defcb-e2bb-4a84-8bc5-b5d06bf40aef, findElement {using=xpath, value=//i[@class='fa fa-user']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 133.0, moz:accessibilityChecks: false, moz:buildID: 20241121140525, moz:debuggerAddress: 127.0.0.1:42117, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1640, moz:profile: C:\Users\Hp\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:42117/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d85defcb-e2bb-4a84-8bc5-b5d06bf40aef
+2024-12-05 16:15:18,886 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Finished TC001_AccountRegistrationTest *****
+2024-12-05 16:15:31,961 [TestNG-tests-2] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-12-05 16:15:34,888 [TestNG-tests-2] INFO  TestCases.TC002LoginTest - ****** Finished TC_002_LoginTest *****
+2024-12-23 13:58:25,480 [main] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-12-23 13:58:28,165 [main] INFO  TestCases.TC002LoginTest - ****** Finished TC_002_LoginTest *****
+2024-12-23 13:59:18,066 [main] INFO  TestCases.TC001_AccountRegistrationPage - ***** Starting TC001_AccountRegistrationTest  ****
+2024-12-23 13:59:18,072 [main] DEBUG TestCases.TC001_AccountRegistrationPage - This is a debug log message
+2024-12-23 13:59:18,611 [main] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on MyAccount Link.. 
+2024-12-23 13:59:21,398 [main] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on Register Link.. 
+2024-12-23 13:59:21,403 [main] INFO  TestCases.TC001_AccountRegistrationPage - Providing customer details...
+2024-12-23 13:59:29,235 [main] INFO  TestCases.TC001_AccountRegistrationPage - Validating expected message..
+2024-12-23 13:59:31,292 [main] INFO  TestCases.TC001_AccountRegistrationPage - Test passed
+2024-12-23 13:59:31,292 [main] INFO  TestCases.TC001_AccountRegistrationPage - ***** Finished TC001_AccountRegistrationTest *****
+2024-12-23 14:00:33,666 [TestNG-tests-1] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-12-23 14:00:40,999 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Starting TC001_AccountRegistrationTest  ****
+2024-12-23 14:00:41,001 [TestNG-tests-3] DEBUG TestCases.TC001_AccountRegistrationPage - This is a debug log message
+2024-12-23 14:00:41,216 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on MyAccount Link.. 
+2024-12-23 14:00:45,709 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Clicked on Register Link.. 
+2024-12-23 14:00:45,713 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Providing customer details...
+2024-12-23 14:00:49,772 [TestNG-tests-2] INFO  TestCases.TC002LoginTest - ****** Startign TC_002_LoginTest *****
+2024-12-23 14:00:51,877 [TestNG-tests-2] INFO  TestCases.TC002LoginTest - ****** Finished TC_002_LoginTest *****
+2024-12-23 14:00:56,034 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Validating expected message..
+2024-12-23 14:00:58,101 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - Test passed
+2024-12-23 14:00:58,101 [TestNG-tests-3] INFO  TestCases.TC001_AccountRegistrationPage - ***** Finished TC001_AccountRegistrationTest *****

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 18 01:26:19 CET 2024</td>
+<td>Started on:</td><td>Mon Dec 23 14:00:23 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13852 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13331 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>Master Sanity Regression DataDriven </td>
 </tr><tr>
@@ -77,18 +77,20 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestCases.TC002LoginTest.verify_login()'><b>verify_login</b><br>Test class: TestCases.TC002LoginTest</td>
-<td><div><pre>java.lang.AssertionError: null
-	at TestCases.TC002LoginTest.verify_login(TC002LoginTest.java:38)
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at TestCases.TC002LoginTest.verify_login(TC002LoginTest.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1887191795", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1887191795'><pre>java.lang.AssertionError: null
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace203675212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace203675212'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at TestCases.TC002LoginTest.verify_login(TC002LoginTest.java:38)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at TestCases.TC002LoginTest.verify_login(TC002LoginTest.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -111,7 +113,7 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:1575)
 </pre></div></td>
 <td>2</td>
-<td>TestCases.TC002LoginTest@146587a2</td></tr>
+<td>TestCases.TC002LoginTest@424e1977</td></tr>
 </table><p>
 </body>
 </html>

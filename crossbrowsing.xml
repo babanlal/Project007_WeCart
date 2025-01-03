@@ -10,11 +10,9 @@
 			 	<!-- <exclude name=""/> -->
 		</run>
 	</groups>
-
 	<listeners>
 			<listener class-name="Utilities.ExtentReportManager"/>
 	</listeners>
-	
 	  <test  name="chromeTest">
   	   	<parameter name="os" value="Windows"/>
   		<parameter name="browser" value="chrome"/>
@@ -41,8 +39,8 @@
     <classes>
       <!-- <class name="TestCases.TC003LoginDDT"/> -->
      <!-- <class name="TestCases.TC004ShoppingCart"/> -->
-      <class name="TestCases.TC002LoginTest"/>
-     <!-- <class name="TestCases.TC001_AccountRegistrationPage"/> -->
+      <!-- <class name="TestCases.TC002LoginTest"/> -->
+      <class name="TestCases.TC001_AccountRegistrationPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
